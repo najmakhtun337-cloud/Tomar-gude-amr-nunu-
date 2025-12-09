@@ -1,0 +1,10 @@
+export function handle350Commands(bot, msg) {
+  const text = msg.text;
+
+  // Example structure
+  if (text === "/cmd1") bot.sendMessage(msg.chat.id, "Command 1 Running...");
+  if (text === "/cmd2") bot.sendMessage(msg.chat.id, "Command 2 Running...");
+  if (text === "/cmd3") bot.sendMessage(msg.chat.id, "Command 3 Running...");
+
+  // … আমি চাইলে 350+ full command করে দেবো
+}
